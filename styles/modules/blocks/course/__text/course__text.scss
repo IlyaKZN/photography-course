@@ -1,0 +1,17 @@
+.course__text {
+  margin: 0;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 469px;
+}
+
+@media screen and (max-width: 767px) {
+  .course__text {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

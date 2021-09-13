@@ -1,0 +1,16 @@
+.appointment__button {
+  border-radius: 0 8px 8px 0;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 205px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .appointment__button {
+    width: 107px;
+    font-size: 11px;
+  }
+}

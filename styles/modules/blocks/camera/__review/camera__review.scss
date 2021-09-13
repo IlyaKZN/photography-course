@@ -1,0 +1,15 @@
+.camera__review {
+  padding: 0;
+}
+
+@media screen and (max-width: 1365px) {
+  .camera__review {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .camera__review:last-of-type {
+    border-bottom: none;
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+}

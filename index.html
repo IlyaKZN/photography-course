@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Photography-course</title>
+    <meta name="author" content="Илья Пичугин">
+</head>
+<body class="page">
+  <header class="header">
+    <button class="header__logo" type="button"></button>
+    <nav class="header__navigation">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <button class="nav-list__link" id="composition-link">Композиция</button>
+        </li>
+        <li class="nav-list__item">
+          <button class="nav-list__link" id="camera-link">Камера</button>
+        </li>
+        <li class="nav-list__item">
+          <button class="nav-list__link" id="search-link">Поиск заказов</button>
+        </li>
+      </ul>
+      <button class="header__nav-button"></button>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="course section">
+      <h1 class="course__title">Курс по фотографии</h1>
+      <img src="./images/course-image.png" alt="Изображение хвойного леса зимой" class="course__img">
+      <p class="course__text">Фотография в природных условиях, уроки по композиции и по пользованию камерой.</p>
+      <button class="button" type="button" id="more-details">Подробнее</button>
+    </section>
+    <section class="composition section" id="composition">
+      <div class="section__top-border"></div>
+      <h3 class="section__name">Композиция</h3>
+      <h2 class="composition__title">Изучите композицию</h2>
+      <img src="./images/composition-image.png" alt="Изображение дороги в хвойном лесу" class="composition__img">
+      <div class="composition__text-container">
+        <p class="composition__text">Вы изучите гармоничное размещение всех элементов изображения на <b class="text-emphasis">снимке</b>.</p>
+        <p class="composition__text">Изучите композицию интуитивную<br>и какие-то определённые законы.</p>
+      </div>
+      <button class="button appointment-link" type="button">Записаться!</button>
+      <li class="composition__regulations">
+        <ul class="composition__item">
+          <p class="composition__regulation">Правило третей, при котором нужно распологать объекты на пересечениях.</p>
+        </ul>
+        <ul class="composition__item">
+          <p class="composition__regulation">Простота: убирай всё лишнее и кадрируй!</p>
+        </ul>
+        <ul class="composition__item">
+          <p class="composition__regulation">Равновесие: уравновесь пятна объекта и фона.</p>
+        </ul>
+        <ul class="composition__item">
+          <p class="composition__regulation">3D глубина кадра: расположи объект позади и перед другими предметами.</p>
+        </ul>
+      </li>
+    </section>
+    <section class="camera section" id="camera">
+      <div class="section__top-border section__top-border_color_white"></div>
+      <h3 class="section__name section__name_place_camera">Камера</h3>
+      <h2 class="camera__title">Настройка Съемка Обработка</h2>
+      <img src="./images/camera-image.png" alt="Изображение хвойного леса" class="camera__img">
+      <h4 class="camera__reviews-title">Отзывы про часть о камерах:</h4>
+      <ul class="camera__reviews">
+        <li class="camera__review">
+          <p class="camera__review-text">на этом курсе я научился пользоватся камерой, как настоящий профессионал!</p>
+          <p class="camera__review-subscription">Питер, водитель.</p>
+          <p class="camera__review-inst">&#64;piter123</p>
+        </li>
+        <li class="camera__review">
+          <p class="camera__review-text">супер крутой курс!<br>на части про фотики<br>я стал разбираться в предназначении кнопок</p>
+          <p class="camera__review-subscription">Джон, спортсмен.</p>
+          <p class="camera__review-inst">&#64;john_sport</p>
+        </li>
+      </ul>
+    </section>
+    <section class="search section" id="search">
+      <div class="section__top-border"></div>
+      <h3 class="section__name">Поиск заказов</h3>
+      <h2 class="search__title">Научим находить заказы!</h2>
+      <div class="search__big-container">
+        <img src="./images/search-image.png" alt="Изображение дерева на фоне голубого неба" class="search__img">
+        <div class="search__small-container">
+          <p class="search__text">Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти постоянную работу.</p>
+          <button class="button appointment-link" type="button">Записаться!</button>
+        </div>
+      </div>
+    </section>
+    <section class="appointment section" id="appointment">
+      <div class="section__top-border section__top-border_color_white"></div>
+      <img src="./images/arrow.svg" alt="Изображение стрелки" class="appointment__arrow">
+      <h2 class="appointment__title">Записаться! Сейчас!</h2>
+      <form name="appointment-form" class="appointment__form">
+        <input class="appointment__emailField" name="mail" type="email" placeholder="Ваша почта" required>
+        <button class="button appointment__button" type="submit">Записаться!</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer section">
+    <p class="footer__signature">2021 Photo-lessons.</p>
+  </footer>
+
+  <script src="./pages/script.js"></script>
+
+</body>
+</html>

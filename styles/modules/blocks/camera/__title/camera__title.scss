@@ -1,0 +1,23 @@
+.camera__title {
+  margin: 0;
+  font-family: $fontFamily;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 122px;
+  line-height: 122px;
+}
+
+@media screen and (max-width: 1365px) {
+  .camera__title {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__title {
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 250px;
+  }
+}

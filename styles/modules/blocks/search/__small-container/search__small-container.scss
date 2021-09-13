@@ -1,0 +1,13 @@
+.search__small-container {
+  margin-top: 25px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1365px) {
+  .search__small-container {
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,24 @@
+.course__title {
+  font-family: $fontFamily;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 110px;
+  max-height: min-content;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1365px) {
+  .course__title {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .course__title {
+    font-size: 47px;
+    line-height: 56px;
+    margin-bottom: 30px;
+  }
+}
