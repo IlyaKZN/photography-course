@@ -1,4 +1,3 @@
-const siteLogo = document.querySelector('.header__logo');
 const appointmentForm = document.querySelector('.appointment__form');
 const appointmentButton = document.querySelector('.appointment__button');
 const compositionLink = document.getElementById('composition-link');
@@ -13,13 +12,6 @@ const appointmentSection = document.getElementById('appointment');
 const navButton = document.querySelector('.header__nav-button');
 const navList = document.querySelector('.nav-list');
 let rotate = 90;
-
-//Функция вращения лого
-siteLogo.addEventListener('click', function () {
-  siteLogo.style.transform = "rotate(" + rotate + "deg)";
-  siteLogo.style.transition = "transform 1s";
-  rotate += 90;
-});
 
 //Функциональность кнопки "Записаться!"
 function handleProfileFormSubmit (evt) {
