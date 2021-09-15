@@ -103,9 +103,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  cursor: pointer;
   padding: 0;
 }
 
@@ -264,6 +261,19 @@
     font-size: 14px;
     line-height: 20px;
     margin: 20px 0 30px 0;
+  }
+}
+.section__name::before {
+  border-top: 1px black solid;
+  height: 20px;
+  width: 100%;
+  display: none;
+  content: "";
+}
+
+@media screen and (max-width: 767px) {
+  .section__name::before {
+    display: block;
   }
 }
 .composition__title {
@@ -730,6 +740,19 @@
     margin-top: 20px;
   }
 }
+.appointment__title::before {
+  border-top: 1px white solid;
+  height: 20px;
+  width: 100%;
+  display: none;
+  content: "";
+}
+
+@media screen and (max-width: 767px) {
+  .appointment__title::before {
+    display: block;
+  }
+}
 .appointment__form {
   display: flex;
   grid-column-start: 2;
@@ -915,4 +938,18 @@ input:focus:-ms-input-placeholder {
   height: 22px;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+.section__name_color-border_light::before {
+  border-top: 1px white solid;
+  height: 20px;
+  width: 100%;
+  display: none;
+  content: "";
+}
+
+@media screen and (max-width: 767px) {
+  .section__name_color-border_light::before {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

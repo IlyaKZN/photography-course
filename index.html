@@ -14,16 +14,16 @@
     <nav class="header__navigation">
       <ul class="nav-list">
         <li class="nav-list__item">
-          <button class="nav-list__link" id="composition-link">Композиция</button>
+          <a class="nav-list__link" id="composition-link">Композиция</a>
         </li>
         <li class="nav-list__item">
-          <button class="nav-list__link" id="camera-link">Камера</button>
+          <a class="nav-list__link" id="camera-link">Камера</a>
         </li>
         <li class="nav-list__item">
-          <button class="nav-list__link" id="search-link">Поиск заказов</button>
+          <a class="nav-list__link" id="search-link">Поиск заказов</a>
         </li>
       </ul>
-      <button class="header__nav-button"></button>
+      <button class="header__nav-button" type="button"></button>
     </nav>
   </header>
   <main class="content">
@@ -34,7 +34,6 @@
       <button class="button" type="button" id="more-details">Подробнее</button>
     </section>
     <section class="composition section" id="composition">
-      <div class="section__top-border"></div>
       <h3 class="section__name">Композиция</h3>
       <h2 class="composition__title">Изучите композицию</h2>
       <img src="./images/composition-image.png" alt="Изображение дороги в хвойном лесу" class="composition__img">
@@ -59,8 +58,7 @@
       </li>
     </section>
     <section class="camera section" id="camera">
-      <div class="section__top-border section__top-border_color_white"></div>
-      <h3 class="section__name section__name_place_camera">Камера</h3>
+      <h3 class="section__name section__name_place_camera section__name_color-border_light">Камера</h3>
       <h2 class="camera__title">Настройка Съемка Обработка</h2>
       <img src="./images/camera-image.png" alt="Изображение хвойного леса" class="camera__img">
       <h4 class="camera__reviews-title">Отзывы про часть о камерах:</h4>
@@ -78,7 +76,6 @@
       </ul>
     </section>
     <section class="search section" id="search">
-      <div class="section__top-border"></div>
       <h3 class="section__name">Поиск заказов</h3>
       <h2 class="search__title">Научим находить заказы!</h2>
       <div class="search__big-container">
@@ -90,7 +87,6 @@
       </div>
     </section>
     <section class="appointment section" id="appointment">
-      <div class="section__top-border section__top-border_color_white"></div>
       <img src="./images/arrow.svg" alt="Изображение стрелки" class="appointment__arrow">
       <h2 class="appointment__title">Записаться! Сейчас!</h2>
       <form name="appointment-form" class="appointment__form">
