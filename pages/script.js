@@ -1,3 +1,4 @@
+const siteLogo = document.querySelector('.header__logo');
 const appointmentForm = document.querySelector('.appointment__form');
 const appointmentButton = document.querySelector('.appointment__button');
 const compositionLink = document.getElementById('composition-link');
