@@ -25,3 +25,17 @@
     margin-top: 20px;
   }
 }
+
+.appointment__title::before {
+  border-top: 1px white solid;
+  height: 20px;
+  width: 100%;
+  display: none;
+  content: '';
+}
+
+@media screen and (max-width: 767px) {
+  .appointment__title::before {
+    display: block;
+  }
+}
