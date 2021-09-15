@@ -317,12 +317,6 @@
     max-height: 100%;
   }
 }
-@media screen and (max-width: 767px) {
-  .composition__img {
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-}
 .composition__text {
   margin: 0 0 20px 0;
   font-family: "Roboto", "Arial", "Impact", sans-serif;
@@ -518,8 +512,6 @@
 @media screen and (max-width: 767px) {
   .camera__img {
     max-height: 685px;
-    grid-row-start: 4;
-    grid-row-end: 5;
   }
 }
 @media screen and (max-width: 600px) {
