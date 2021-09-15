@@ -1,4 +1,4 @@
-.appointment__emailField {
+.appointment__email-field {
   font-family: $fontFamily;
   border: 2px solid black;
   height: 50px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .appointment__emailField {
+  .appointment__email-field {
     width: 175px;
     font-size: 11px;
   }
