@@ -1,0 +1,16 @@
+.composition__regulation {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media screen and (max-width:767px) {
+  .composition__regulation {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+

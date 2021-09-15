@@ -1,0 +1,22 @@
+.composition__title {
+  margin: 0 0 100px 0;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  max-width: 403px;
+}
+
+@media screen and (max-width: 1365px) {
+  .composition__title {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

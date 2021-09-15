@@ -1,0 +1,27 @@
+.composition__img {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  max-width: 642px;
+  height: 685px;
+  justify-self: flex-end;
+}
+
+@media screen and (max-width: 1365px) {
+  .composition__img {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__img {
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}

@@ -1,0 +1,24 @@
+.camera__reviews {
+  padding: 0;
+  margin: 180px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 642px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  list-style-type: none;
+  column-gap: 86px;
+}
+
+@media screen and (max-width: 1365px) {
+  .camera__reviews {
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__reviews {
+    margin-top: 60px;
+  }
+}

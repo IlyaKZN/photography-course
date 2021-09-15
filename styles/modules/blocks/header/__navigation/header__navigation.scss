@@ -1,0 +1,14 @@
+.header__navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .header__navigation {
+    flex-direction: column;
+  }
+}

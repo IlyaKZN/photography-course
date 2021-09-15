@@ -1,0 +1,17 @@
+.search__title {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  max-width: 549px;
+  margin: 0 0 106px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .search__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 60px;
+  }
+}

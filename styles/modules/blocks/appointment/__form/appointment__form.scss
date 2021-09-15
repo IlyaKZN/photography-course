@@ -1,0 +1,13 @@
+.appointment__form {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1365px) {
+  .appointment__form {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}

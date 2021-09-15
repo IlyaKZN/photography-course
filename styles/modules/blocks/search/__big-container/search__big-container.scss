@@ -1,0 +1,10 @@
+.search__big-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1365px) {
+  .search__big-container {
+    flex-direction: column;
+  }
+}

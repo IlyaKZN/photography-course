@@ -1,0 +1,27 @@
+.appointment__title {
+  margin: 0 0 120px 0;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 120px;
+  color: white;
+  max-width: 571px;
+}
+
+@media screen and (max-width: 1365px) {
+  .appointment__title {
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .appointment__title {
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+.camera__review-subscription {
+  margin: 0 0 10px 0;
+  font-family: $fontFamily;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .camera__review-subscription {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+}

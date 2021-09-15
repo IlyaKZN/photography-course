@@ -1,0 +1,17 @@
+.section {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .section {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__signature {
+  margin: 0;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__signature {
+    font-size: 12px;
+  }
+}

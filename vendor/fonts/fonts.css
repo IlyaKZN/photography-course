@@ -1,0 +1,23 @@
+@font-face {
+  src: url(./Roboto-Regular.ttf) format('woff2');
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(./Roboto-Medium.ttf) format('woff2');
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./Roboto-Bold.ttf) format('woff2');
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./Inter-Regular.ttf) format('woff2');
+  font-family: 'Inter';
+  font-weight: normal;
+}
