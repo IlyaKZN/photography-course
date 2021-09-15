@@ -3,9 +3,8 @@
   padding: 0;
   border: none;
   background-color: rgba(0,0,0,0);
-  cursor: pointer;
   max-height: 40px;
-  background-image: url(../images/header-logo.svg);
+  background-image: url(../../../../../images/header-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 40px;
@@ -18,5 +17,18 @@
     height: 30px;
     width: 30px;
     align-self: flex-start;
+  }
+}
+
+.header__logo:hover {
+  animation: rotation 1s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
