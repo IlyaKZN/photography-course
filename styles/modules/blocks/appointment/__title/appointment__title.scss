@@ -1,11 +1,12 @@
+@include white-text(appointment__title);
+
 .appointment__title {
-  margin: 0 0 120px 0;
+  margin-bottom: 120px;
   font-family: $fontFamily;
   font-style: normal;
   font-weight: normal;
   font-size: 120px;
   line-height: 120px;
-  color: white;
   max-width: 571px;
 }
 

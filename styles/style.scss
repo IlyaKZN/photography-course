@@ -1,5 +1,6 @@
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/fonts.css';
+@import './modules/mixins.scss';
 @import './modules/variables.scss';
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/header/header.scss';
@@ -15,7 +16,7 @@
 @import './modules/blocks/button/button.scss';
 @import './modules/blocks/section/section.scss';
 @import './modules/blocks/composition/composition.scss';
-@import './modules/blocks/section/__name/section__name.scss';
+@import './modules/blocks/section-name/section-name.scss';
 @import './modules/blocks/composition/__title/composition__title.scss';
 @import './modules/blocks/composition/__img/composition__img.scss';
 @import './modules/blocks/composition/__text/composition__text.scss';
@@ -24,7 +25,7 @@
 @import './modules/blocks/composition/__regulation/composition__regulation.scss';
 @import './modules/blocks/composition/__text-container/composition__text-container.scss';
 @import './modules/blocks/camera/camera.scss';
-@import './modules/blocks/section/__name/_place/section__name_place_camera.scss';
+@import './modules/blocks/section-name/_place/section-name_place_camera.scss';
 @import './modules/blocks/camera/__title/camera__title.scss';
 @import './modules/blocks/composition/__item/composition__item.scss';
 @import './modules/blocks/camera/__reviews-title/camera__reviews-title.scss';
@@ -54,7 +55,7 @@
 @import './modules/blocks/header/__logo/_disable/header__logo_disable.scss';
 @import './modules/blocks/header/__navigation/header__navigation.scss';
 @import './modules/blocks/header/__nav-button/_active/header__nav-button_active.scss';
-@import './modules/blocks/section/__name/_color-border/section__name_color-border_light.scss';
+@import './modules/blocks/section-name/_color-border/section-name_color-border_light.scss';
 @import './modules/blocks/header/__container/header__container.scss';
 @import './modules/blocks/course/__container/course__container.scss';
 @import './modules/blocks/composition/__container/composition__container.scss';

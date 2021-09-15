@@ -1,26 +1,16 @@
+@include white-text(camera__review-inst);
+
 .camera__review-inst {
-  margin: 0;
   font-family: $fontFamily;
-  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 }
 
-// @media screen and (max-width: 1365px) {
-//   .camera__review-inst {
-//     margin-bottom: 60px;
-//   }
-//   .camera__review-inst:last {
-//     margin-bottom: 0;
-//   }
-// }
-
 @media screen and (max-width: 767px) {
   .camera__review-inst {
     font-size: 12px;
     line-height: 12px;
-    // margin-bottom: 30px;
   }
 }

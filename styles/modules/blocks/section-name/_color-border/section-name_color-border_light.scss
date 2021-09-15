@@ -1,4 +1,4 @@
-.section__name_color-border_light::before {
+.section-name_color-border_light::before {
   border-top: 1px white solid;
   height: 20px;
   width: 100%;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .section__name_color-border_light::before {
+  .section-name_color-border_light::before {
     display: block;
   }
 }

@@ -1,11 +1,12 @@
+@include white-text(camera__review-text);
+
 .camera__review-text {
   font-family: $fontFamily;
-  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 43px;
   line-height: 43px;
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
   width: 526px;
 }
 

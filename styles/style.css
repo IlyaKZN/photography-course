@@ -89,8 +89,12 @@
   }
 }
 .nav-list__link {
-  text-decoration: none;
   color: white;
+  margin: 0;
+}
+
+.nav-list__link {
+  text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -214,7 +218,7 @@
   background-color: #FFCE00;
 }
 
-.section__name {
+.section-name {
   margin: 0 0 50px 0;
   font-family: "Roboto", "Arial", "Impact", sans-serif;
   text-transform: uppercase;
@@ -225,18 +229,18 @@
 }
 
 @media screen and (max-width: 1365px) {
-  .section__name {
+  .section-name {
     margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  .section__name {
+  .section-name {
     font-size: 14px;
     line-height: 20px;
     margin: 20px 0 30px 0;
   }
 }
-.section__name::before {
+.section-name::before {
   border-top: 1px black solid;
   height: 20px;
   width: 100%;
@@ -245,7 +249,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .section__name::before {
+  .section-name::before {
     display: block;
   }
 }
@@ -315,8 +319,6 @@
 }
 
 .composition__regulations {
-  padding: 0;
-  list-style-type: none;
   margin: 100px 0 0 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -340,6 +342,11 @@
     margin-top: 80px;
   }
 }
+.composition__regulations {
+  padding: 0;
+  list-style-type: none;
+}
+
 .composition__regulation {
   font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
@@ -369,14 +376,17 @@
   background-color: black;
 }
 
-.section__name_place_camera {
+.section-name_place_camera {
   color: white;
 }
 
 .camera__title {
-  margin: 0;
-  font-family: "Roboto", "Arial", "Impact", sans-serif;
   color: white;
+  margin: 0;
+}
+
+.camera__title {
+  font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 122px;
@@ -417,9 +427,12 @@
   }
 }
 .camera__reviews-title {
-  font-family: "Roboto", "Arial", "Impact", sans-serif;
   color: white;
   margin: 0;
+}
+
+.camera__reviews-title {
+  font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -530,13 +543,17 @@
   }
 }
 .camera__review-text {
-  font-family: "Roboto", "Arial", "Impact", sans-serif;
   color: white;
+  margin: 0;
+}
+
+.camera__review-text {
+  font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 43px;
   line-height: 43px;
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
   width: 526px;
 }
 
@@ -549,9 +566,13 @@
   }
 }
 .camera__review-subscription {
-  margin: 0 0 10px 0;
-  font-family: "Roboto", "Arial", "Impact", sans-serif;
   color: white;
+  margin: 0;
+}
+
+.camera__review-subscription {
+  margin-bottom: 10px;
+  font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -566,9 +587,12 @@
   }
 }
 .camera__review-inst {
-  margin: 0;
-  font-family: "Roboto", "Arial", "Impact", sans-serif;
   color: white;
+  margin: 0;
+}
+
+.camera__review-inst {
+  font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -660,13 +684,17 @@
   }
 }
 .appointment__title {
-  margin: 0 0 120px 0;
+  color: white;
+  margin: 0;
+}
+
+.appointment__title {
+  margin-bottom: 120px;
   font-family: "Roboto", "Arial", "Impact", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 120px;
   line-height: 120px;
-  color: white;
   max-width: 571px;
 }
 
@@ -884,7 +912,7 @@ input:focus:-ms-input-placeholder {
   margin-right: 5px;
 }
 
-.section__name_color-border_light::before {
+.section-name_color-border_light::before {
   border-top: 1px white solid;
   height: 20px;
   width: 100%;
@@ -893,7 +921,7 @@ input:focus:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 767px) {
-  .section__name_color-border_light::before {
+  .section-name_color-border_light::before {
     display: block;
   }
 }

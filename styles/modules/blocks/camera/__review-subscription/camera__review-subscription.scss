@@ -1,7 +1,8 @@
+@include white-text(camera__review-subscription);
+
 .camera__review-subscription {
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
   font-family: $fontFamily;
-  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
