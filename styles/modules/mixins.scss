@@ -1,0 +1,13 @@
+@mixin ul-reset($name) {
+  .#{$name} {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+@mixin white-text($name) {
+  .#{$name} {
+    color: white;
+    margin: 0;
+  }
+}

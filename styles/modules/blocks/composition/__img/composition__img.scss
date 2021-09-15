@@ -18,10 +18,3 @@
     max-height: 100%;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .composition__img {
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-}

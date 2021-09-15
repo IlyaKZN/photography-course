@@ -1,6 +1,4 @@
 .composition__regulations {
-  padding: 0;
-  list-style-type: none;
   margin: 100px 0 0 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -25,3 +23,5 @@
     margin-top: 80px;
   }
 }
+
+@include ul-reset(composition__regulations);
