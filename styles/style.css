@@ -38,7 +38,7 @@
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   max-height: 40px;
-  background-image: url(../../../../../images/header-logo.svg);
+  background-image: url(../images/header-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 40px;
@@ -864,7 +864,7 @@ input:focus:-ms-input-placeholder {
   display: none;
   background-color: rgba(0, 0, 0, 0);
   border: none;
-  background-image: url(../../../../../images/menu-icon.svg);
+  background-image: url(../images/menu-icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 32px;
